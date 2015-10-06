@@ -11,9 +11,7 @@ if(count($query)){
 		echo '<tr>';
 echo '<td>'.$row->titulo.' </td>';
 echo '<td>'.$row->descripcion.' </td>';
-echo '<td>'.$row->slug.' </td>';
-echo '<td>'.$row->destacado.' </td>';
-echo '<td>'.$row->filename.' </td>';
+
 
 		if($row->filename){
 		echo '<td><img src="'.base_url('images-productos/'.$row->filename).'" width="100" /></td>';
