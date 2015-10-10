@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="<?php echo base_url('public_folder/css/bootstrap.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('public_folder/css/frontend.css') ?>">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -39,7 +40,7 @@
 		<div class="row">
 			
 
-			<div class="lg12">
+			<div class="col-lg-12">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
@@ -83,10 +84,123 @@
     </div> <!-- /container -->
 
 </div><!-- /container-fluid -->
-<div class="container-fluid">
 
-	<img src="<?php echo base_url('public_folder/home.jpg') ?>" class="img-responsive">
+<!-- container con sombra blanca arriba para hacer nuevamente sombra en la parte antigua -->
+
+<div class="container-fluid shadow-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="titulo-verde center">"Elaboramos productos solubles 100% naturales <br /> y elaborados sin agregados quimicos."</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="divider"><span class="titulo-negro">NUESTROS PRODUCTOS</span></h3>
+			</div>
+		</div>
+
+		<!-- thumbnails -->
+		<div class="row">
+			
+			<div class="col-sm-6 col-md-3">
+			<div class="thumbnail">
+			<img src="..." alt="...">
+			<div class="caption">
+			<h3>Thumbnail label</h3>
+			<p>...</p>
+			<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+			</div>
+			</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+			<div class="thumbnail">
+			<img src="..." alt="...">
+			<div class="caption">
+			<h3>Thumbnail label</h3>
+			<p>...</p>
+			<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+			</div>
+			</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+			<div class="thumbnail">
+			<img src="..." alt="...">
+			<div class="caption">
+			<h3>Thumbnail label</h3>
+			<p>...</p>
+			<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+			</div>
+			</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+			<div class="thumbnail">
+			<img src="..." alt="...">
+			<div class="caption">
+			<h3>Thumbnail label</h3>
+			<p>...</p>
+			<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+			</div>
+			</div>
+			</div>
+
+
+
+
+		</div>
+	</div><!--  container -->
 </div>
+
+<!-- segundo bloque antiguo -->
+<div class="container-fluid antiguo">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="divider"><span class="titulo-negro"><i class="fa fa-commenting-o fa-2x "></i></h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="titulo-negro center uppercase">"Trabajamos bajo los mas altos niveles de calidad logrando <br /> conservar el aroma y sabor original de nuestros productos"</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="divider"><span class="glyphicon glyphicon-grain" aria-hidden="true"></h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid footer">
+	<div class="container">
+
+		<div class="col-lg-3 footer-lines-right">
+			<h4>Contacto</h4>
+			<p>Lorem ipsum dolor sit amet, consectetus quaerat, possimus odit</p>
+		</div>
+
+		<div class="col-lg-6">
+			<h4>Contacto</h4>
+			<p>Lorem ipsum dolor sit amet, consectetus quaerat, possimus odit</p>
+		</div>
+
+		<div class="col-lg-3 footer-lines-left">
+			<h4>Contacto</h4>
+			<p>Lorem ipsum dolor sit amet, consectetus quaerat, possimus odit</p>
+		</div>
+
+	</div>
+</div>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 </body>

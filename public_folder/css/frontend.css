@@ -1,5 +1,5 @@
 body {
-  min-height: 2000px;
+  min-height: 1000px;
   padding-top: 120px;
 }
 
@@ -11,10 +11,66 @@ body {
 .navbar-default{-webkit-box-shadow: -1px 11px 52px -21px rgba(0,0,0,0.68);
 -moz-box-shadow: -1px 11px 52px -21px rgba(0,0,0,0.68);
 box-shadow: -1px 11px 52px -21px rgba(0,0,0,0.68);}
-#menu_principal a{background: #fff; color: #444; padding: 4em .5em 4em .5em; text-align: center;}
+
+.shadow-top{
+	-webkit-box-shadow: 0px -9px 47px -16px rgba(48,48,48,0.71);
+-moz-box-shadow: 0px -9px 47px -16px rgba(48,48,48,0.71);
+box-shadow: 0px -9px 47px -16px rgba(48,48,48,0.71);
+}
+
+.navbar{min-height:110px; }
+
+#menu_principal a{background: #fff; color: #444; padding: 2.5em .7em 2em .7em; text-align: center;}
 #menu_principal a:hover{background: #8cc63e; color: #fff;}
+#menu_prncipal .active>a{background: #8cc63e; color: #fff;}
 
 .antiguo{background: #eee8da; padding-top: 2em; padding-bottom: 2em;}
+
+/******  TITULOS ******/
+.titulo-verde{color: #8cc63e; font-size: 150%}
+.titulo-negro{color: #444;}
+
+.center{text-align:center;}
+.uppercase{text-transform: uppercase;}
+
+.divider{
+    color:#ccc;
+    width:70%;
+    margin:20px auto;
+    overflow:hidden;
+    text-align:center;   
+    line-height:1.2em;
+}
+
+.divider:before, .divider:after{
+    content:"";
+    vertical-align:middle;
+    display:inline-block;
+    width:50%;
+    border-bottom:2px dotted #ccc;
+    margin:0 2% 0 -55%;
+}
+.divider:after{
+    margin:0 -55% 0 2%;
+}
+h1:nth-child(2){
+    font-size:3em;
+}
+span{
+  display:inline-block;
+  vertical-align:middle;
+  }
+
+
+/** FIN TITULOS **/
+
+
+
+/******* FOOTER *******/
+.footer{padding-top: 2em; padding-bottom: 2em;}
+.footer-lines-left{ border-left: 1px dotted #333;}
+.footer-lines-right{border-right: 1px dotted #333;}
+
 @media(max-width:767px){}
 @media(min-width:768px){}
 @media(min-width:992px){
